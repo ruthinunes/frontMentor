@@ -131,6 +131,7 @@ form>button:hover {
 }
 
 .icons_container>span {
+    cursor: pointer;
     display: inline-block;
     margin: 0 .5rem;
     border-radius: 60px;
@@ -207,5 +208,10 @@ form>button:hover {
 
     .heading_text {
         font-size: 2rem;
+    }
+
+    .footer>small {
+        margin: 3rem 0 .5rem 0;
+        font-size: 1.6rem;
     }
 }
